@@ -1,0 +1,31 @@
+@import '../index.sass'
+            
+#nav-container
+    position: fixed
+    bottom: 0em
+    right: 1em    
+
+    & button
+        border: none
+        margin-bottom: 1em !important
+        border-radius: 3em
+        padding: .5em
+        width: 3em
+        height: 3em
+        box-shadow: $shadow-low
+        background-color: $colors-light 
+        transition: $transition
+        outline: none
+        border: 2px solid white
+
+        cursor: pointer
+        display: block 
+
+        &:hover
+            box-shadow: $shadow-med
+
+        &:active
+            box-shadow: $shadow-high
+
+    & a   
+        text-decoration: none
